@@ -1,0 +1,39 @@
+c:\users\anton\documents\visual studio 2010\Projects\TruckInformationSystem\TruckInformationSystem\obj\x86\Debug\TruckInformationSystem.frmTruckInfo.resources
+c:\users\anton\documents\visual studio 2010\Projects\TruckInformationSystem\TruckInformationSystem\obj\x86\Debug\TruckInformationSystem.Properties.Resources.resources
+c:\users\anton\documents\visual studio 2010\Projects\TruckInformationSystem\TruckInformationSystem\obj\x86\Debug\TruckInformationSystem.csproj.GenerateResource.Cache
+C:\Users\ANTON\Documents\Visual Studio 2010\Projects\TruckInformationSystem\TruckInformationSystem\bin\Debug\TruckInformationSystem.exe
+C:\Users\ANTON\Documents\Visual Studio 2010\Projects\TruckInformationSystem\TruckInformationSystem\bin\Debug\TruckInformationSystem.pdb
+C:\Users\ANTON\Documents\Visual Studio 2010\Projects\TruckInformationSystem\TruckInformationSystem\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\ANTON\Documents\Visual Studio 2010\Projects\TruckInformationSystem\TruckInformationSystem\obj\x86\Debug\TruckInformationSystem.csprojResolveAssemblyReference.cache
+C:\Users\ANTON\Documents\Visual Studio 2010\Projects\TruckInformationSystem\TruckInformationSystem\obj\x86\Debug\TruckInformationSystem.exe
+C:\Users\ANTON\Documents\Visual Studio 2010\Projects\TruckInformationSystem\TruckInformationSystem\obj\x86\Debug\TruckInformationSystem.pdb
+C:\Users\ANTON\Documents\Visual Studio 2010\Projects\TruckInformationSystem\TruckInformationSystem\obj\x86\Debug\TruckInformationSystem.frmTruckProf.resources
+C:\Users\ANTON\Documents\Visual Studio 2010\Projects\TruckInformationSystem\TruckInformationSystem\obj\x86\Debug\TruckInformationSystem.frmOilHist.resources
+C:\Users\ANTON\Documents\Visual Studio 2010\Projects\TruckInformationSystem\TruckInformationSystem\obj\x86\Debug\TruckInformationSystem.frmBattMain.resources
+C:\Users\ANTON\Documents\Visual Studio 2010\Projects\TruckInformationSystem\TruckInformationSystem\obj\x86\Debug\TruckInformationSystem.frmTireMain.resources
+C:\Users\ANTON\Documents\Visual Studio 2010\Projects\TruckInformationSystem\TruckInformationSystem\obj\x86\Debug\TruckInformationSystem.frmTools.resources
+C:\Users\ANTON\Desktop\TruckInformationSystem\TruckInformationSystem\obj\x86\Debug\TruckInformationSystem.exe
+C:\Users\ANTON\Desktop\TruckInformationSystem\TruckInformationSystem\obj\x86\Debug\TruckInformationSystem.pdb
+C:\Users\ANTON\Desktop\TruckInformationSystem\TruckInformationSystem\bin\Debug\TruckInformationSystem.exe
+C:\Users\ANTON\Desktop\TruckInformationSystem\TruckInformationSystem\bin\Debug\TruckInformationSystem.pdb
+C:\Users\ANTON\Desktop\TruckInformationSystem\TruckInformationSystem\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\ANTON\Desktop\TruckInformationSystem\TruckInformationSystem\obj\x86\Debug\TruckInformationSystem.csprojResolveAssemblyReference.cache
+C:\Users\ANTON\Desktop\TruckInformationSystem\TruckInformationSystem\obj\x86\Debug\TruckInformationSystem.frmBattMain.resources
+C:\Users\ANTON\Desktop\TruckInformationSystem\TruckInformationSystem\obj\x86\Debug\TruckInformationSystem.frmOilHist.resources
+C:\Users\ANTON\Desktop\TruckInformationSystem\TruckInformationSystem\obj\x86\Debug\TruckInformationSystem.frmTireMain.resources
+C:\Users\ANTON\Desktop\TruckInformationSystem\TruckInformationSystem\obj\x86\Debug\TruckInformationSystem.frmTools.resources
+C:\Users\ANTON\Desktop\TruckInformationSystem\TruckInformationSystem\obj\x86\Debug\TruckInformationSystem.frmTruckInfo.resources
+C:\Users\ANTON\Desktop\TruckInformationSystem\TruckInformationSystem\obj\x86\Debug\TruckInformationSystem.frmTruckProf.resources
+C:\Users\ANTON\Desktop\TruckInformationSystem\TruckInformationSystem\obj\x86\Debug\TruckInformationSystem.Properties.Resources.resources
+C:\Users\ANTON\Desktop\TruckInformationSystem\TruckInformationSystem\obj\x86\Debug\TruckInformationSystem.csproj.GenerateResource.Cache
+C:\Users\ANTON\Desktop\TruckInformationSystem\TruckInformationSystem\obj\x86\Debug\TruckInformationSystem.frmDriver.resources
+C:\Users\ANTON\Desktop\TruckInformationSystem\TruckInformationSystem\obj\x86\Debug\TruckInformationSystem.frmMain.resources
+C:\Users\ANTON\Documents\Visual Studio 2010\Projects\TruckInformationSystem\TruckInformationSystem\obj\x86\Debug\TruckInformationSystem.frmDriver.resources
+C:\Users\ANTON\Documents\Visual Studio 2010\Projects\TruckInformationSystem\TruckInformationSystem\obj\x86\Debug\TruckInformationSystem.frmMain.resources
+C:\Users\ANTON\Documents\Visual Studio 2010\Projects\TruckInformationSystem\TruckInformationSystem\obj\x86\Debug\TruckInformationSystem.frmDriverHistory.resources
+C:\Users\ANTON\Documents\Visual Studio 2010\Projects\TruckInformationSystem\TruckInformationSystem\obj\x86\Debug\TruckInformationSystem.frmJobOrder.resources
+C:\Users\ANTON\Documents\Visual Studio 2010\Projects\TruckInformationSystem\TruckInformationSystem\obj\x86\Debug\TruckInformationSystem.frmRepairHistory.resources
+C:\Users\ANTON\Documents\Visual Studio 2010\Projects\TruckInformationSystem\TruckInformationSystem\obj\x86\Debug\TruckInformationSystem.frmConfirmFinish.resources
+C:\Users\ANTON\Documents\Visual Studio 2010\Projects\TruckInformationSystem\TruckInformationSystem\obj\x86\Debug\TruckInformationSystem.frmTruckIndiv.resources
+C:\Users\ANTON\Documents\Visual Studio 2010\Projects\TruckInformationSystem\TruckInformationSystem\obj\x86\Debug\TruckInformationSystem.frmLogin.resources
+C:\Users\ANTON\Documents\Visual Studio 2010\Projects\TruckInformationSystem\TruckInformationSystem\obj\x86\Debug\TruckInformationSystem.frmBackup.resources

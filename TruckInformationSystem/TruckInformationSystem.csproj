@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{42C39142-49A2-412F-9AFE-F528D26F82DB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TruckInformationSystem</RootNamespace>
+    <AssemblyName>TruckInformationSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft SQL Server Compact Edition\v3.5\Desktop\System.Data.SqlServerCe.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmBackup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBackup.Designer.cs">
+      <DependentUpon>frmBackup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Job Order\classTruckIndiv.cs" />
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Job Order\classSaveFinish.cs" />
+    <Compile Include="Job Order\classViewRepair.cs" />
+    <Compile Include="Job Order\frmTruckIndiv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Job Order\frmTruckIndiv.Designer.cs">
+      <DependentUpon>frmTruckIndiv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Truck Parts\classBattery.cs" />
+    <Compile Include="Driver\classDriver.cs" />
+    <Compile Include="Job Order\classJobOrder.cs" />
+    <Compile Include="Truck Parts\classTire.cs" />
+    <Compile Include="Truck Parts\classTools.cs" />
+    <Compile Include="Truck\classTruckInfo.cs" />
+    <Compile Include="Truck\ClassTruckProf.cs" />
+    <Compile Include="Truck Parts\frmBattMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Truck Parts\frmBattMain.Designer.cs">
+      <DependentUpon>frmBattMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Job Order\frmConfirmFinish.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Job Order\frmConfirmFinish.Designer.cs">
+      <DependentUpon>frmConfirmFinish.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Driver\frmDriver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Driver\frmDriver.Designer.cs">
+      <DependentUpon>frmDriver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Driver\frmDriverHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Driver\frmDriverHistory.Designer.cs">
+      <DependentUpon>frmDriverHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Job Order\frmJobOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Job Order\frmJobOrder.Designer.cs">
+      <DependentUpon>frmJobOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Truck\frmOilHist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Truck\frmOilHist.Designer.cs">
+      <DependentUpon>frmOilHist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Job Order\frmRepairHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Job Order\frmRepairHistory.Designer.cs">
+      <DependentUpon>frmRepairHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Truck Parts\frmTireMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Truck Parts\frmTireMain.Designer.cs">
+      <DependentUpon>frmTireMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Truck Parts\frmTools.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Truck Parts\frmTools.Designer.cs">
+      <DependentUpon>frmTools.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Truck\frmTruckInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Truck\frmTruckInfo.Designer.cs">
+      <DependentUpon>frmTruckInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Truck\frmTruckProf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Truck\frmTruckProf.Designer.cs">
+      <DependentUpon>frmTruckProf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmBackup.resx">
+      <DependentUpon>frmBackup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Job Order\frmTruckIndiv.resx">
+      <DependentUpon>frmTruckIndiv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Truck Parts\frmBattMain.resx">
+      <DependentUpon>frmBattMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Job Order\frmConfirmFinish.resx">
+      <DependentUpon>frmConfirmFinish.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Driver\frmDriver.resx">
+      <DependentUpon>frmDriver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Driver\frmDriverHistory.resx">
+      <DependentUpon>frmDriverHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Job Order\frmJobOrder.resx">
+      <DependentUpon>frmJobOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Truck\frmOilHist.resx">
+      <DependentUpon>frmOilHist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Job Order\frmRepairHistory.resx">
+      <DependentUpon>frmRepairHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Truck Parts\frmTireMain.resx">
+      <DependentUpon>frmTireMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Truck Parts\frmTools.resx">
+      <DependentUpon>frmTools.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Truck\frmTruckInfo.resx">
+      <DependentUpon>frmTruckInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Truck\frmTruckProf.resx">
+      <DependentUpon>frmTruckProf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Truck\Resources\wrench-md.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Truck\Resources\truck profile.jpg" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
